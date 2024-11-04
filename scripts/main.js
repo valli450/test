@@ -57,7 +57,9 @@ function hasOneHourPassed() {
   console.log(lastVisit);
   if (lastVisit) {
       const currentTime = new Date().getTime();
-      return currentTime - lastVisit > 3600000; 
+      const timeDifference = currentTime - lastVisit;
+      console.log("Time difference in milliseconds: ", timeDifference);
+      return timeDifference > 3600000; 
   }
   return true;
 }
