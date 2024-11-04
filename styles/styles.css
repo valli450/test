@@ -215,6 +215,7 @@ body.modal-active{
 
 @media (min-width: 768px) and (max-width: 1024px){
   body{
+    width: 100vw;
     background-position: center 70px;
   }
 
