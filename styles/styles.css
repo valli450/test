@@ -135,6 +135,8 @@ body.modal-active{
   text-align: center;  
   z-index: 200;
   transition: transform 1s ease, opacity 1s ease; 
+  margin-top: 10px;
+
 }
 
 #disclosure.hidden {
