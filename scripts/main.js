@@ -27,8 +27,14 @@ function showDisclosure() {
 // Disclosure hide
 function acceptDisclosure() {
   const disclosure = document.getElementById("disclosure");
+  const logoLink = document.getElementById("logoLink")
+  const menu = document.getElementById("burgerMenu")
   disclosure.classList.add("hidden"); 
+
   setTimeout(() => {
+      menu.classList.remove("disabled")
+      logoLink.classList.remove("disabled")
+
       disclosure.style.display = "none"; 
       document.body.classList.remove("modal-active"); 
       setCookie("disclosureAccepted", "true", 1); 
