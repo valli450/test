@@ -70,7 +70,8 @@ body.modal-active{
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: top;
+  justify-content: flex-start;
+  align-items: center;
   gap: 70px;
   z-index: 8;
 }
