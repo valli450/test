@@ -73,7 +73,7 @@ body.modal-active{
   justify-content: center;
   align-items: center;
   z-index: 8;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 #navMenu.open{
