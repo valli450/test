@@ -7,7 +7,7 @@
 
 html{
   background-color: rgb(170, 168, 168);
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 /* Menu section */
