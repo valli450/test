@@ -6,6 +6,11 @@
 }
 
 /* Menu section */
+html{
+  background-color: grey;
+}
+
+
 body{
   background-image: url('../images/83DC97A0-8489-4E9F-A2BE-17C3966E91B8.webp');
   background-size: cover;
