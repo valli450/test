@@ -74,6 +74,8 @@ body.modal-active{
   align-items: center;
   gap: 70px;
   z-index: 8;
+  overflow-y: auto;
+  max-height: 100vh;
 }
 
 #navMenu.open{
