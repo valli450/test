@@ -6,9 +6,14 @@
 }
 
 /* Menu section */
-
+html{
+  background-color: gray;
+  overflow: auto;
+}
 
 body{
+  width: 100vw;
+  height: 100vh;
   background-image: url('../images/83DC97A0-8489-4E9F-A2BE-17C3966E91B8.webp');
   background-size: cover;
   background-position: center 80px;
